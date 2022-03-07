@@ -1,0 +1,27 @@
+{
+  "employee": {
+    "name": "sonoo",
+    "salary": 56000,
+    "married": true
+  },
+  "aaa": [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ],
+  "bbb": [
+    {
+      "name": "Ram",
+      "email": "Ram@gmail.com"
+    },
+    {
+      "name": "Bob",
+      "email": "bob32@gmail.com"
+    }
+  ]
+}
+

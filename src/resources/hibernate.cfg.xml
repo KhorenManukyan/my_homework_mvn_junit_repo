@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost/lessons</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.username">root</property>
+        <!--        <property name="hibernate.connection.password">root123</property>-->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+        <!-- Assume test is the database name -->
+        <property name="show_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- List of XML mapping files -->
+        <!--        <mapping resource = "Employee.hbm.xml"/>-->
+        <mapping class="jpa_and_hibernate.hibernate.videos.hibernate2019.entities.Student"></mapping>
+    </session-factory>
+</hibernate-configuration>

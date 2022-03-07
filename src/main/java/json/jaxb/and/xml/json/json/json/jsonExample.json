@@ -1,0 +1,15 @@
+{
+  "Company": {
+    "Employee": {
+      "FirstName": "Sonoo",
+      "LastName": "Jaiswal",
+      "ContactNo": "1234567890",
+      "Email": "xoren@gmail.com",
+      "Address": {
+        "City": "Noida",
+        "State": "Uttar Pradesh",
+        "Zip": "123456"
+      }
+    }
+  }
+}

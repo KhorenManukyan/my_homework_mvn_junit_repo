@@ -1,0 +1,8 @@
+<hibernate-mapping>
+    <class name="jpa_and_hibernate.hibernate.videos.hibernate2019.entities.Student">
+<!--        <id name="id" column="ID">-->
+            <genterator class="native"/>
+<!--        </id>-->
+        <property name="name"/>
+    </class>
+</hibernate-mapping>
